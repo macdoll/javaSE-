@@ -13,7 +13,7 @@ import org.junit.Test;
  * @time 2021/1/7 15:54
  * @return
  */
-public class homework {
+public class exer {
     @Test
     public void writeRead() throws IOException {
         String s = "duplicate remove";
@@ -33,5 +33,6 @@ public class homework {
             String str = new String(dataRead);
             System.out.println(str);
         }
+
     }
 }
