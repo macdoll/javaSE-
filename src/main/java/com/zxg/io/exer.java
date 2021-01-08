@@ -1,6 +1,5 @@
 package com.zxg.io;
 import java.io.*;
-import java.util.ArrayList;
 import java.util.Iterator;
 
 import org.junit.Test;
@@ -13,16 +12,10 @@ import org.junit.Test;
  * @return
  */
 public class homework {
-    /**
-     * 1、使用对象流将一个程序中创建的对象写入TXT文件，
-     * 再对象读取到程序中，打印对象
-     * win下的路径d:\\java\\test.txt
-     * @throws IOException
-     */
     @Test
     public void writeRead() throws IOException {
         String s = "duplicate remove";
-        File file = new File("d:\\java\\my.txt");
+        File file = new File("d:java\\my.txt");
         if (file.exists()==false){
             file.createNewFile();
         }
@@ -39,6 +32,7 @@ public class homework {
             System.out.println(str);
         }
     }
+
 
     /**
      * 2、（字符流+缓冲流）读取一个文本文件，
