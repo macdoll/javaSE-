@@ -1,5 +1,6 @@
 package com.zxg.io;
 import java.io.*;
+import java.util.ArrayList;
 import java.util.Iterator;
 
 import org.junit.Test;
@@ -11,7 +12,7 @@ import org.junit.Test;
  * @time 2021/1/7 15:54
  * @return
  */
-public class homework {
+public class exer {
     @Test
     public void writeRead() throws IOException {
         String s = "duplicate remove";
