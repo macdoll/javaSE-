@@ -10,5 +10,8 @@
         <module name="javaSE" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="javase" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
